@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><!-- Meta, title, CSS, favicons, etc. -->
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+		<meta name="description" content="Join the Duel Lagoon beta and follow our blog to learn the process of how to make a mobile game.">
+		<!-- <meta name="keywords" content="iOS, app, store, itunes, monkey, ape, Unity, virtual reality, game, ios game, noah, bragg, Noah Bragg">
+		<meta property="og:title" content="Noah Bragg portfolio"/>
+		<meta property="og:image" content="images/noah-dev.png"/>
+		<meta property="og:site_name" content="Noah Bragg"/> -->
+		<meta property="og:description" content="Join the Project N beta and follow our blog to learn the process of how to make a mobile game."/>
+
+		<link rel="icon" type="image/png" href="icon.png"/>
+		<!-- bootstrap stuff to link -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- CSS stuff -->
+		<link href="css/style.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo">
+		<title> Duel Lagoon </title>
+
+		<!-- javaScript loading -->
+		<script language="javascript" src="js/checkAndSendData.js"></script>
+		
+	</head>
+	<body>
+
+		<!-- Menu Bar -->
+
+		<div class="containter-fluid">
+			<div class="row">
+				<ul class="side-padding">
+				  	<a href="http://duellagoon.com">
+					<img class="float-left"src="images/duel-lagoon-logo.png" alt"logo"></a>
+				 	<ul class="float-right">
+				    	<li><a href="#Beta">Beta</a></li>
+				    	<li><a href="blog-home.html">Blog</a></li>
+				    	<li><a href="feedback.html">Feedback</a></li>
+				  	</ul>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Top Image and video -->
+
+		<div class="containter-fluid background-boat">
+			<div class="row extra-top-padding">
+				<!-- Beta call to action -->
+				<div class="extra-top-padding bottom-padding">
+					<a href="#Beta">
+						<h2 class="r-corners float-right right-margin">Sign up for the Beta</h2>
+					</a>
+				</div>
+
+				<!-- the video -->
+	    		<div class="col-md-8 col-md-offset-2 tons-top-padding">
+			    	<div class="embed-responsive embed-responsive-16by9">
+			    		<iframe class="embed-responsive-item"src="https://www.youtube.com/embed/SjKeR_juFoE" frameborder="0" allowfullscreen></iframe>
+			    	</div>
+			    </div>
+			</div>
+		</div>
+		<br></br>
+		<br></br>
+		<br></br>
+		<br></br>
+		<br></br>
+		<br></br>
+		<!-- Blog and Feedback button area -->
+
+		<div class="container extra-top-padding bottom-padding ">
+			<div class="row">
+				<div class="bottom-padding-mobile">
+					<a href="blog-home.html">
+						<div class="col-md-4 col-md-offset-1 r-corners center-it">
+							<h3>Blog</h3>
+							<p class="center-it">Follow our journey of making a mobile game and learn the process so you can make one yourself!</p>
+						</div>
+					</a>
+				</div>
+				<a href="feedback.html">
+					<div class="col-md-4 col-md-offset-2 r-corners center-it">
+						<h3>Feedback</h3>
+						<p class="center-it">Give us feedback on our game from what you have seen or played of it so far! </p>
+					</div>
+				</a>
+			</div>
+		</div>
+		
+		<!-- Sign up For Beta -->
+
+		<div class="container top-padding bottom-padding" id="Beta">
+			<h3 class="blue-color">Beta Coming Soon! <br> Sign up Here.</h3>
+			<div class="row">
+				
+				<div class="col-md-8 col-md-offset-2 center-it r-corners forms-page">
+					<form name="emailForm" onsubmit="return(checkAndSendData())">
+						<br></br>
+				    	<p class="in-line">Name</p> <input type="text" name="first_name" class="brown-color" id="first_name"/><p class="red-color in-line"id="name"></p>
+				    	<br></br>
+				    	<p class="in-line">Email</p> <input type="text" name="email" class="brown-color" id="email"/><p class="red-color in-line"id="validEmail"> </p>
+				    	<br></br>
+				    	<input type="submit" name="submit" value="Join The Beta" class="submit-butt" id="submit-butt"/><h3 class="green-color" id="successOutput"></h3>
+				    	<br></br>
+			    	</form>
+			    </div>
+			</div>
+		</div>
+
+		
+
+		<!-- copyright stuff -->
+		<div class="container-fluid">
+		    <div class="row left-align">
+            	<p class="brown-color left-padding">© 2016 Web Design by Noah Bragg</p>
+        	</div>
+    	</div>
+
+	</body>
+</html>
+

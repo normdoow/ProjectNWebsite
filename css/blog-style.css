@@ -1,0 +1,505 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*
+Theme Name: Multipurpose Landing Page Template - All in One
+Version: 1.0
+Author: Noah Bragg
+
+/*========== 1. GLOBAL STYLES ==============*/
+
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+body {
+	overflow-x: hidden;
+	font-family: 'Arvo', serif;
+    font-size: 12px;
+    background-size: cover;
+	background-color: #f2f2f2;
+	text-align: center;
+	font-weight: 200;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	color: white;
+	line-height:1.5;
+	letter-spacing: 1.1px;
+}
+strong, b {
+	font-weight:500;
+}
+
+p {
+	color: black;
+	text-align: left;
+	font-size: 18px;
+	word-wrap: normal;
+}
+
+.small-p {
+	font-size: 14px;
+}
+
+h1 {
+	font-size:200px;
+	line-height: 2;
+	margin:25px 0;
+	font-weight:800;
+	text-align: center;
+}
+h2 {
+	font-size:60px;
+	font-weight:700;
+	margin:15px 0;
+	text-align: center;
+}
+h3 {
+	font-size:35px;
+	font-weight:500;
+	/*margin:55px 0;*/
+	text-align: center;
+	
+}
+
+h4 {
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+h5 {
+	font-size:18px;
+	margin:15px 0;
+
+}
+h6 {
+	font-size:16px;
+	margin:10px 0;
+}
+
+
+div.background-img {
+	background-size: cover;
+}
+
+/* menu stuff*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    /*padding: 20px;*/
+    overflow: hidden;
+    background-color: #607B8B;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 50px 60px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover:not(.active) {
+    background-color: #836953;
+    text-decoration: none;
+}
+
+a h2 {
+	list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #607B8B;
+	color: white;
+}
+
+a h3 {
+	list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #607B8B;
+	color: white;
+}
+
+a div:hover {
+	background-color: #566e7d;
+    text-decoration: none;
+}
+
+/* rounded corners*/
+
+.r-corners {
+    border-radius: 25px;
+    background: #607B8B;
+    padding: 20px;       
+}
+
+.r-corners-brown {
+    border-radius: 25px;
+    background: #836953;
+    padding: 20px;      
+}
+
+/* input box */
+
+input {
+	font-size: 20px;
+	border-width: 4px;
+	border-color: #836953;
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 60%
+}
+
+textarea {
+	font-size: 17px;
+	border-width: 4px;
+	border-color: #836953;
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.submit-butt {
+	width: 30%;
+	background-color: white;
+	color: #607B8B;
+}
+
+#submit-butt:hover {
+	background-color: #836953;
+}
+
+.in-line {
+	display: inline-block;
+}
+
+/* Backgrounds */
+
+.background-color-brown {
+	background-color: #836953;
+	width: 100%;
+}
+
+.background-color-blue {
+	background-color: #607B8B;
+	width: 100%;
+}
+
+.background-color-creme {
+	background-color: #fffdd0;
+	width: 100%;
+}
+
+.background-boat {
+	background: url("../images/project-n-background.png") no-repeat center center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	height: 110%;
+}
+
+.background-slit {
+	background: url("../images/slit-background.png") no-repeat center center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	height: 100%;
+}
+
+.background-slit-blogs {
+	background: url("../images/slit-background-blogs.png") no-repeat center center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	height: 100%;
+}
+
+.logo {
+	background: url("../images/olympic-logo.png") no-repeat center center;
+}
+
+.bio {
+    border-radius: 25px;
+    background: #607B8B;
+    padding: 20px;       
+}
+
+
+
+/* paddings */
+
+.bottom-padding {
+	padding-bottom: 40px;
+}
+
+.extra-bottom-padding {
+	padding-bottom: 80px;
+}
+
+.top-padding {
+	padding-top: 40px;
+}
+
+.extra-top-padding {
+	padding-top: 80px;
+}
+
+.tons-top-padding {
+	padding-top: 200px;
+}
+
+.center-it {
+	text-align: center;
+}
+
+.center-image-vertical {
+	vertical-align: middle;
+}
+
+.center-it-vertical {
+	height: 100px;
+	line-height: 100px;
+}
+
+.left-align {
+	text-align: left;
+}
+
+.right-align {
+	text-align: right;
+}
+
+.side-padding {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.left-padding {
+	padding left: 30px;
+}
+
+.right-padding {
+	padding right: 30px;
+}
+
+.right-margin {
+	margin-right: 90px;
+}
+
+.bottom-margin {
+	margin-bottom: 30px;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+/* colors */
+.brown-color {
+	color: #836953;
+}
+
+.blue-color {
+	color: #607B8B;
+}
+
+.white-color {
+	color:#FBF8EF;
+}
+
+.bottom-padding-mobile {
+	
+}
+
+/* mobile stuff */
+
+@media only screen and (max-device-width: 960px) {
+				body {
+					overflow-x: hidden;
+					font-family: 'Arvo', serif;
+				    font-size: 8px;
+				    background-size: cover;
+					background-color: #fffdd0;
+					text-align: center;
+					font-weight: 100;
+					height: 100%;
+					margin: 0;
+					padding: 0;
+					color: white;
+					line-height: 1;
+					letter-spacing: 1px;
+				}
+				strong, b {
+					font-weight:300;
+				}
+
+				h1 {
+					font-size:30px;
+					line-height: .5;
+					margin:10px 0;
+					font-weight:400;
+					text-align: center;
+				}
+				h2 {
+					font-size:24px;
+					font-weight:350;
+					margin:5px 0;
+					text-align: center;
+				}
+				h3 {
+					font-size:15px;
+					font-weight:500;
+					/*margin:55px 0;*/
+					text-align: center;
+					
+				}
+
+				h4 {
+					text-align: left;
+					font-size: 10px;
+					font-weight: bold;
+				}
+				p {
+					font-size: 10px;
+					margin:5px 0;
+					
+				}
+
+				/* menu stuff*/
+
+				li a {
+				    display: inline-block;
+				    color: white;
+				    text-align: center;
+				    padding: 20px 30px;
+				    text-decoration: none;
+				    font-size: 14px;
+				}
+
+				/* rounded corners*/
+
+				.r-corners {
+				    border-radius: 25px;
+				    background: #607B8B;
+				    padding: 10px;       
+				}
+
+				.r-corners-brown {
+				    border-radius: 25px;
+				    background: #836953;
+				    padding: 10px;      
+				}
+
+				/* input box */
+
+				input {
+					font-size: 10px;
+					border-width: 2px;
+					border-color: #836953;
+					border-radius: 20px;
+					padding-left: 5px;
+					padding-right: 5px;
+					width: 60%
+				}
+
+				textarea {
+					font-size: 10px;
+					border-width: 2px;
+					border-color: #836953;
+					border-radius: 20px;
+					padding-left: 5px;
+					padding-right: 5px;
+				}
+
+
+				.background-boat {
+					background: url("../images/project-n-background.png") no-repeat center center; 
+				  	-webkit-background-size: cover;
+				  	-moz-background-size: cover;
+				  	-o-background-size: cover;
+				  	background-size: cover;
+				  	height: 50%;
+				}
+
+				.background-slit {
+					background: url("../images/slit-background.png") no-repeat center center; 
+				  	-webkit-background-size: cover;
+				  	-moz-background-size: cover;
+				  	-o-background-size: cover;
+				  	background-size: cover;
+				  	height: 20%;
+				}
+
+				.background-slit-blogs {
+					background: url("../images/slit-background-blogs.png") no-repeat center center; 
+				  	-webkit-background-size: cover;
+				  	-moz-background-size: cover;
+				  	-o-background-size: cover;
+				  	background-size: cover;
+				  	height: 20%;
+				}
+
+				/* paddings */
+
+				.bottom-padding {
+					padding-bottom: 15px;
+				}
+
+				.extra-bottom-padding {
+					padding-bottom: 40px;
+				}
+
+				.top-padding {
+					padding-top: 15px;
+				}
+
+				.extra-top-padding {
+					padding-top: 40px;
+				}
+
+				.tons-top-padding {
+					padding-top: 100px;
+				}
+
+				.side-padding {
+					padding-left: 10px;
+					padding-right: 10px;
+				}
+
+				.right-margin {
+					margin-right: 60px;
+				}
+
+				.bottom-margin {
+					margin-bottom: 15px;
+				}
+
+				.left-padding {
+					padding-left: 5px;
+				}
+				.bottom-padding-mobile {
+					padding-bottom: 15px;
+				}
+}
